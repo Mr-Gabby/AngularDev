@@ -25,6 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+## Context of Project
+The task of this project is to load data from a json file using Angular services. This project demonstrates my knowledge of Angular service and Angular Forms (Reactive forms)
+
 ## Output of Project
 
 ![o1](https://github.com/Mr-Gabby/AngularDev/assets/101271219/097f2d8a-7465-4d3c-9c42-2832503bd710)
