@@ -1,0 +1,92 @@
+[
+  {
+    "country": "United States",
+    "region": "North America",
+    "capital": "Washington D.C.",
+    "population": 331449281,
+    "currency": "USD",
+    "major-exports": ["Machinery", "Electronics", "Pharmaceuticals"],
+    "languages": ["English"]
+  },
+  {
+    "country": "Canada",
+    "region": "North America",
+    "capital": "Ottawa",
+    "population": 37742154,
+    "currency": "CAD",
+    "major-exports": ["Vehicles", "Machinery", "Timber"],
+    "languages": ["English", "French"]
+  },
+  {
+    "country": "Brazil",
+    "region": "South America",
+    "capital": "Brasília",
+    "population": 212500000,
+    "currency": "BRL",
+    "major-exports": ["Soybeans", "Poultry", "Petroleum"],
+    "languages": ["Portuguese"]
+  },
+  {
+    "country": "United Kingdom",
+    "region": "Europe",
+    "capital": "London",
+    "population": 67800000,
+    "currency": "GBP",
+    "major-exports": ["Machinery", "Vehicles", "Chemicals"],
+    "languages": ["English"]
+  },
+  {
+    "country": "Germany",
+    "region": "Europe",
+    "capital": "Berlin",
+    "population": 83800000,
+    "currency": "EUR",
+    "major-exports": ["Vehicles", "Machinery", "Electronics"],
+    "languages": ["German"]
+  },
+  {
+    "country": "France",
+    "region": "Europe",
+    "capital": "Paris",
+    "population": 65300000,
+    "currency": "EUR",
+    "major-exports": ["Machinery", "Aircraft", "Perfumes"],
+    "languages": ["French"]
+  },
+  {
+    "country": "India",
+    "region": "Asia",
+    "capital": "New Delhi",
+    "population": 1380004385,
+    "currency": "INR",
+    "major-exports": ["Pharmaceuticals", "Jewelry", "Textiles"],
+    "languages": ["Hindi", "English"]
+  },
+  {
+    "country": "China",
+    "region": "Asia",
+    "capital": "Beijing",
+    "population": 1439500000,
+    "currency": "CNY",
+    "major-exports": ["Electronics", "Machinery", "Textiles"],
+    "languages": ["Mandarin"]
+  },
+  {
+    "country": "Japan",
+    "region": "Asia",
+    "capital": "Tokyo",
+    "population": 126500000,
+    "currency": "JPY",
+    "major-exports": ["Vehicles", "Machinery", "Technology"],
+    "languages": ["Japanese"]
+  },
+  {
+    "country": "Australia",
+    "region": "Oceania",
+    "capital": "Canberra",
+    "population": 25500000,
+    "currency": "AUD",
+    "major-exports": ["Iron Ore", "Coal", "Gold"],
+    "languages": ["English"]
+  }
+]

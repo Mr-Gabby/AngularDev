@@ -1,0 +1,50 @@
+<form [formGroup]="userForm" (ngSubmit)="submitForm()">
+   
+
+    <div>
+    <div>
+      <mat-form-field>
+        <mat-label> <mat-icon>person</mat-icon>User Id</mat-label>
+        <input matInput formControlName="userId" required minlength="5">
+        <mat-error *ngIf="userForm.get('userId')?.invalid && (userForm.get('userId')?.dirty || userForm.get('userId')?.touched)">
+          UserId is required and must be minimum 5 characters
+        </mat-error>
+      </mat-form-field>
+    </div>
+  
+   
+    <div>
+      <mat-form-field>
+        <mat-label> <mat-icon>email</mat-icon>Email</mat-label>
+        <input matInput type="email" formControlName="email" required>
+        <mat-error *ngIf="userForm.get('email')?.invalid && (userForm.get('email')?.dirty || userForm.get('email')?.touched)">
+          Email is invalid
+        </mat-error>
+      </mat-form-field>
+    </div>
+  
+   
+    <div>
+      <mat-form-field>
+        <mat-label>Semester</mat-label>
+        <mat-select formControlName="semester" required>
+          <mat-option value="1">Semester1</mat-option>
+          <mat-option value="2">Semester2</mat-option>
+          <mat-option value="3">Semester3</mat-option>
+          <mat-option value="4">Semester4</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+ 
+    <div>
+      <button mat-raised-button color="primary" type="submit" [disabled]="userForm.invalid">Submit</button>
+    </div>
+</div>
+  </form>
+  
+  
+  <div *ngIf="submittedFormData">
+    <h3>Submitted Form Values:</h3>
+    <p>{{ submittedFormData.userId }} - {{ submittedFormData.email }} - {{ submittedFormData.semester }}</p>
+  </div>
+  
